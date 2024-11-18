@@ -79,6 +79,7 @@ button {
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-right: 214px;
 }
 .logo-main {
   width: 67.04px;
@@ -98,4 +99,19 @@ button {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+.header__list li a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
