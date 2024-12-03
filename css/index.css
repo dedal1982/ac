@@ -348,7 +348,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1640px;
+  max-width: 1372px;
   width: 100%;
   margin: 0 auto;
 }
@@ -358,7 +358,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 144px auto 0 134px;
+  margin: 144px auto 0 0;
   position: relative;
 }
 .in-demand__title::after {
@@ -465,6 +465,7 @@ button {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 .in-demand__purchase-text {
   max-width: 740px;
@@ -475,9 +476,24 @@ button {
 .in-demand__purchase-title {
   width: 100%;
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 .in-demand__purchase-title img {
-  width: 90px;
-  height: 90px;
+  width: 118px;
+  height: 118px;
+}
+.in-demand__purchase-title h2 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.9px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.in-demand__purchase-title h2 span {
+  background: linear-gradient(75.28deg, #406fff 58.43%, #d453ff 86.32%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
