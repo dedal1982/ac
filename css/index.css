@@ -568,3 +568,8 @@ button {
     rgba(37, 21, 109, 0.36) 100%
   );
 }
+.in-demand__purchase-video {
+  width: 458px;
+  display: flex;
+  flex-direction: column;
+}
