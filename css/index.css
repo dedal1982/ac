@@ -461,3 +461,8 @@ button {
 .swiper-button-prev.swiper-button-disabled {
   opacity: 0;
 }
+.in-demand__purchase {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
