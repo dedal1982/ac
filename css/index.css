@@ -497,3 +497,21 @@ button {
   background-clip: text;
   color: transparent;
 }
+.in-demand__purchase-text h3 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.72px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 55px;
+  margin-left: 10px;
+  position: relative;
+  width: fit-content;
+}
+.in-demand__purchase-text h3::after {
+  content: url(../icons/in-demand-arrow.svg);
+  position: absolute;
+  bottom: -8px;
+  right: -83px;
+}
