@@ -515,3 +515,9 @@ button {
   bottom: -8px;
   right: -83px;
 }
+.in-demand__purchase-items {
+  max-width: 484px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
