@@ -44,7 +44,7 @@ button {
 @media screen and (max-width: 1024px) {
 }
 .container {
-  max-width: 1920px;
+  max-width: 1720px;
   width: 100%;
   padding-left: 40px;
   padding-right: 40px;
@@ -107,11 +107,25 @@ button {
 }
 .header__list li a {
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 7px;
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
   text-transform: uppercase;
   color: #ffffff;
+}
+.header__cocial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 47px;
+}
+.header__cocial li a img {
+  width: 50px;
+  height: 50px;
+  transition: all 0.2s ease-in-out;
+}
+.header__cocial li a img:hover {
+  transform: scale(1.1);
 }
