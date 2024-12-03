@@ -344,6 +344,13 @@ button {
   top: 0;
   left: 0;
 }
+.in-demand__bottom {
+  width: 100%;
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  z-index: 2;
+}
 .in-demand__wrapper {
   display: flex;
   flex-direction: column;
@@ -618,14 +625,5 @@ button {
 .footer {
   width: 100%;
   background: transparent;
-  position: absolute;
-  bottom: 0;
-}
-.footer__wrapper {
-  position: relative;
-  background: transparent;
-}
-.footer__bg {
-  width: 100%;
-  position: absolute;
+  display: flex;
 }
