@@ -396,10 +396,45 @@ button {
   height: 405px;
   border-radius: 20px;
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .in-demand__image {
   width: 100%;
   height: 178px;
   border-radius: 20px 20px 0 0;
+}
+.in-demand__text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 27px;
+  box-sizing: border-box;
+}
+.in-demand__text h3 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42.63px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.in-demand__button {
+  width: 205px;
+  height: 62px;
+  border-radius: 15px;
+  background: #0e52b6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.54px;
+  color: #fff;
+  text-transform: uppercase;
 }
