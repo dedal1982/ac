@@ -671,7 +671,7 @@ button {
 .footer__items {
   display: flex;
   flex-direction: column;
-  gap: 77px;
+  gap: 65px;
   margin-left: 162px;
 }
 .footer__links-items {
@@ -683,4 +683,7 @@ button {
 }
 .footer__links-items a {
   margin-bottom: 0 !important;
+}
+.connect-items {
+  gap: 5px;
 }
