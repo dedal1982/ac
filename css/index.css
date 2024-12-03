@@ -623,11 +623,17 @@ button {
 }
 /*footer*/
 .footer {
-  max-width: 1500px;
+  max-width: 1550px;
   width: 100%;
   background: transparent;
   display: flex;
+  margin: 0 auto;
 }
 .footer__inner {
   display: flex;
+}
+.footer__logo {
+  width: 176px;
+  height: 130px;
+  z-index: 3;
 }
