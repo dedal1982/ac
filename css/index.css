@@ -151,6 +151,7 @@ button {
   background-size: cover;
   background-position: center center;
   position: relative;
+  overflow: hidden;
 }
 .promo__wrapper {
   display: flex;
@@ -209,6 +210,7 @@ button {
   background-size: cover;
   background-position: center center;
   position: relative;
+  overflow: hidden;
 }
 .offers__top {
   width: 100%;
@@ -228,6 +230,7 @@ button {
   max-width: 1640px;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 .offers__inner {
   max-width: 962.29px;
@@ -258,6 +261,19 @@ button {
   height: 10px;
   background: linear-gradient(90deg, #ffffff 0%, #2e1ade 100%);
   position: relative;
+  border-radius: 14px;
+}
+.offers__line::before {
+  content: url(../icons/offers-l-arrow.svg);
+  position: absolute;
+  top: 0;
+  left: -80px;
+}
+.offers__line::after {
+  content: url(../icons/offers-r-arrow.svg);
+  position: absolute;
+  top: 0;
+  right: -80px;
 }
 .offers__arrow {
   width: 60px;
@@ -284,6 +300,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .offers__item span {
   width: 91px;
@@ -303,4 +320,9 @@ button {
   text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
+}
+.offers__main {
+  position: absolute;
+  top: 250px;
+  right: -327px;
 }
