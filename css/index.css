@@ -115,3 +115,23 @@ button {
   display: flex;
   align-items: center;
 }
+.header__links {
+  display: flex;
+  align-items: end;
+  gap: 46px;
+}
+.header__links li a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header__links li a img {
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
