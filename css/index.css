@@ -522,10 +522,12 @@ button {
   flex-direction: column;
   margin-top: 41px;
   margin-left: 44px;
+  gap: 81px;
 }
 .in-demand__purchase-item {
   width: 100%;
-  padding: 25px 34px 42px 25px;
+  padding: 25px 24px 32px 25px;
+  box-sizing: border-box;
   border-radius: 20px;
   background: linear-gradient(
     0deg,
