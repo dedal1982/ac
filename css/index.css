@@ -668,3 +668,9 @@ button {
   width: 30px;
   height: 30px;
 }
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  margin-left: 162px;
+}
