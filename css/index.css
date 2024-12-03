@@ -701,3 +701,18 @@ button {
   align-items: center;
   gap: 15px;
 }
+.footer__copyright {
+  max-width: 651px;
+  width: 100%;
+  border-radius: 22px 22px 0 0;
+  border: 4px solid #ffffff42;
+  border-bottom: none;
+  margin: 0 auto;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 33px;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+}
