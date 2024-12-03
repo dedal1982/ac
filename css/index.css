@@ -152,8 +152,9 @@ button {
   background-position: center center;
 }
 .promo__wrapper {
-  height: calc(100dvh - 100px);
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .promo__top {
   width: 100%;
@@ -171,4 +172,30 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+.promo__text {
+  max-width: 728px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 316px 232px 365px auto;
+}
+.promo__text h1 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 73px;
+  line-height: 87.7px;
+  color: #fff;
+}
+.promo__text h1 span {
+  background: linear-gradient(81.55deg, #0c7ae6 6.46%, #b200de 51.1%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.promo__text p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.36px;
+  color: #fff;
 }
