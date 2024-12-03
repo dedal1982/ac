@@ -569,7 +569,7 @@ button {
   );
 }
 .in-demand__purchase-video {
-  width: 458px;
+  width: 530px;
   display: flex;
   flex-direction: column;
 }
@@ -582,6 +582,7 @@ button {
   flex-direction: column;
   padding: 10px;
   box-sizing: border-box;
+  align-self: flex-end;
 }
 .video-inner {
   width: 100%;
