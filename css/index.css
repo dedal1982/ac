@@ -150,11 +150,15 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative;
 }
 .promo__wrapper {
   position: relative;
   display: flex;
   align-items: center;
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
 }
 .promo__top {
   width: 100%;
@@ -167,18 +171,17 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 2;
 }
 .promo__main {
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
+  margin-top: 135px;
 }
 .promo__text {
   max-width: 728px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 316px 232px 365px auto;
+  margin: 316px auto 365px 50px;
 }
 .promo__text h1 {
   font-family: "Proxima Nova Condensed", sans-serif;
