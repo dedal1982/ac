@@ -660,7 +660,7 @@ button {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 600;
   font-size: 24px;
-  line-height: 29.23px;
+  line-height: 25px;
   color: #5c6b99;
   margin-bottom: 10px;
 }
@@ -673,4 +673,14 @@ button {
   flex-direction: column;
   gap: 77px;
   margin-left: 162px;
+}
+.footer__links-items {
+  max-width: 712px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 20px;
+}
+.footer__links-items a {
+  margin-bottom: 0 !important;
 }
