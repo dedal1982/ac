@@ -153,7 +153,6 @@ button {
   position: relative;
 }
 .promo__wrapper {
-  position: relative;
   display: flex;
   align-items: center;
   max-width: 1640px;
@@ -201,4 +200,40 @@ button {
   font-size: 20px;
   line-height: 24.36px;
   color: #fff;
+}
+/*offers*/
+.offers {
+  width: 100%;
+  background: url(../images/offers-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.offers__top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.offers__bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.offers__wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+}
+.offers__inner {
+  max-width: 962.29px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 261px;
+  margin-bottom: 273px;
 }
