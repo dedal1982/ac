@@ -636,4 +636,33 @@ button {
   width: 176px;
   height: 130px;
   z-index: 3;
+  margin-right: 89px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+.footer__links li h4 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.23px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer__links li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29.23px;
+  color: #5c6b99;
+}
+.footer__links li a img {
+  width: 30px;
+  height: 30px;
 }
