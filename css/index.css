@@ -466,3 +466,18 @@ button {
   display: flex;
   justify-content: space-between;
 }
+.in-demand__purchase-text {
+  max-width: 740px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.in-demand__purchase-title {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.in-demand__purchase-title img {
+  width: 90px;
+  height: 90px;
+}
