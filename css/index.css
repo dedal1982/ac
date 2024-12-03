@@ -234,6 +234,27 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 261px;
   margin-bottom: 273px;
+  margin-left: 126px;
+}
+.offers__inner h2 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85.26px;
+  color: #fff;
+}
+.offers__inner h2 span {
+  background: linear-gradient(90deg, #0075ff 0%, #0281e5 46.5%, #3cdee8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.offers__line {
+  max-width: 770px;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(90deg, #ffffff 0%, #2e1ade 100%);
 }
