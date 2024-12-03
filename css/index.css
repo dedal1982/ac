@@ -687,3 +687,12 @@ button {
 .connect-items {
   gap: 5px;
 }
+.footer__items-bottom {
+  display: flex;
+  gap: 157px;
+}
+.babk-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
