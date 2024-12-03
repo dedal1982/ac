@@ -263,3 +263,44 @@ button {
   width: 60px;
   height: 130px;
 }
+.offers__items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 88px;
+}
+.offers__item {
+  width: 255px;
+  height: 255px;
+  border-radius: 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(44, 11, 91, 0.8) 0%,
+    rgba(21, 50, 138, 0.8) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.offers__item span {
+  width: 91px;
+  height: 91px;
+  border-radius: 30px;
+  background: #0075ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offers__item p {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.36px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
