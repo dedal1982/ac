@@ -11,9 +11,17 @@
   padding-top: 75px;
   padding-bottom: 105px;
   box-sizing: border-box;
-  max-width: 1400px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+.cooperation__wrapper h1 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73.08px;
+  color: #fff;
+  text-transform: uppercase;
 }
