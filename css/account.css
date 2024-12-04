@@ -84,3 +84,9 @@
   width: 100%;
   text-align: center;
 }
+.account__grid {
+  width: 772px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  gap: 4px;
+}
