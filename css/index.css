@@ -627,6 +627,7 @@ button {
   background: transparent;
   display: flex;
   position: relative;
+  margin-top: 75px;
 }
 .footer__wrapper {
   max-width: 1550px;
