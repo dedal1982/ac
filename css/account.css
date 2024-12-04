@@ -143,3 +143,18 @@
   color: #fff;
   text-transform: uppercase;
 }
+.account__buy {
+  width: 87.69px;
+  height: 26.47px;
+  border-radius: 4px;
+  background: #0165d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20.71px;
+  color: #fff;
+  text-transform: uppercase;
+}
