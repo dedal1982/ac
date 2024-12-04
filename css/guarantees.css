@@ -1,0 +1,13 @@
+.guarantees {
+  width: 100%;
+  background: linear-gradient(
+      360deg,
+      rgba(24, 0, 72, 0.7938) 0%,
+      rgba(8, 45, 89, 0.772628) 43%,
+      rgba(0, 87, 189, 0.81) 96.86%
+    ),
+    url(../images/guarantees-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
