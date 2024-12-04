@@ -1,0 +1,19 @@
+.cooperation {
+  width: 100%;
+  background: linear-gradient(
+    360deg,
+    rgba(24, 0, 72, 0.7938) 0%,
+    rgba(8, 45, 89, 0.772628) 43%,
+    rgba(0, 87, 189, 0.81) 96.86%
+  );
+}
+.cooperation__wrapper {
+  padding-top: 75px;
+  padding-bottom: 105px;
+  box-sizing: border-box;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
