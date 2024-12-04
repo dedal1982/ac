@@ -51,3 +51,14 @@
   line-height: 36.54px;
   color: #fff;
 }
+.cooperation__desc {
+  max-width: 1244px;
+  width: 100%;
+  margin: 88px auto 0;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.54px;
+  color: #fff;
+  text-align: center;
+}
