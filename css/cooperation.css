@@ -25,3 +25,29 @@
   color: #fff;
   text-transform: uppercase;
 }
+.cooperation__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  gap: 40px;
+}
+.cooperation__list li {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.54px;
+  color: #fff;
+}
+.cooperation__support {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 130px;
+}
+.cooperation__support p {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.54px;
+  color: #fff;
+}
