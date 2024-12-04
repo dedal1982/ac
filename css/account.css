@@ -1,0 +1,86 @@
+.account {
+  width: 100%;
+  position: relative;
+}
+.account__top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.account__wrapper {
+  padding-top: 100px;
+  padding-bottom: 65px;
+  box-sizing: border-box;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+.account__title {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.account__disk {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.account__title h1 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77.95px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.account__title h1 span {
+  background: linear-gradient(86.81deg, #027fe9 40.67%, #3bdce8 100.4%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.account__inner {
+  width: 900px;
+  height: 744px;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(32, 22, 90, 0.7) 0%,
+    rgba(7, 60, 128, 0.7) 100%
+  );
+  margin-left: 68px;
+  padding-top: 42px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account__inner-title {
+  display: flex;
+  gap: 13px;
+}
+.account__inner-disk {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin-top: 15px;
+}
+.account__inner-title h2 {
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.72px;
+  color: #fff;
+  text-transform: uppercase;
+  max-width: 490px;
+  width: 100%;
+  text-align: center;
+}
