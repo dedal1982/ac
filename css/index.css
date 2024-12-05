@@ -266,6 +266,12 @@ button {
     width: 450px;
   }
 }
+@media screen and (max-width: 767px) {
+  .promo__main {
+    top: 115px;
+    width: 350px;
+  }
+}
 .promo__text {
   max-width: 728px;
   width: 100%;
@@ -291,6 +297,18 @@ button {
     margin: 230px auto 170px;
   }
 }
+@media screen and (max-width: 767px) {
+  .promo__text {
+    max-width: 282px;
+    align-items: center;
+    margin: 160px auto 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .promo__text {
+    margin: 160px auto 60px;
+  }
+}
 .promo__text h1 {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
@@ -308,6 +326,13 @@ button {
   .promo__text h1 {
     font-size: 45px;
     line-height: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__text h1 {
+    font-size: 32px;
+    line-height: 38.98px;
+    text-align: center;
   }
 }
 .promo__text h1 span {
@@ -332,6 +357,14 @@ button {
   .promo__text p {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .promo__text p {
+    font-size: 10px;
+    line-height: 12.18px;
+    text-align: center;
+    max-width: 236px;
   }
 }
 /*offers*/
@@ -997,6 +1030,7 @@ button {
     #073c80 86.62%
   );
   transition: all 0.2s ease-in-out;
+  z-index: 10;
 }
 .mobile-menu.active {
   top: 100px;
@@ -1017,13 +1051,13 @@ button {
 .mobile-menu__links {
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 30px;
 }
 .mobile-menu__links li a {
   font-family: "Proxima Nova Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 41.41px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
   color: #fff;
   text-transform: uppercase;
 }
