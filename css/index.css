@@ -623,6 +623,13 @@ button {
   margin: 0 auto;
   position: relative;
 }
+@media screen and (max-width: 1440px) {
+  .in-demand__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
 .in-demand__title {
   max-width: 710px;
   width: 100%;
@@ -631,6 +638,11 @@ button {
   gap: 10px;
   margin: 144px auto 77px 0;
   position: relative;
+}
+@media screen and (max-width: 1024px) {
+  .in-demand__title {
+    margin: 144px auto 77px;
+  }
 }
 .in-demand__title::after {
   content: url(../icons/in-demand-arrow.svg);
@@ -649,6 +661,12 @@ button {
   line-height: 60.9px;
   color: #fff;
   text-transform: uppercase;
+}
+@media screen and (max-width: 1024px) {
+  .in-demand__title h2 {
+    font-size: 45px;
+    line-height: 47px;
+  }
 }
 .in-demand__title h2 span {
   background: linear-gradient(75.28deg, #406fff 58.43%, #d453ff 86.32%);
@@ -720,8 +738,8 @@ button {
   margin: 0 auto;
 }
 .pre__item {
-  width: 350px;
-  height: 480px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -732,7 +750,7 @@ button {
   object-fit: cover;
 }
 .pre__button {
-  width: 261.24px;
+  width: 100%;
   height: 78.41px;
 }
 .in-demand__more {
@@ -747,6 +765,12 @@ button {
   text-transform: uppercase;
   margin-bottom: 115px;
   cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .in-demand__more {
+    font-size: 40px;
+    left: 42px;
+  }
 }
 .in-demand__more.active {
   display: none;
@@ -771,6 +795,12 @@ button {
 .in-demand__more img {
   width: 40px;
   height: 65px;
+}
+@media screen and (max-width: 1024px) {
+  .in-demand__more img {
+    width: 30px;
+    height: 55px;
+  }
 }
 /*in-demand__swiper*/
 .in-demand__swiper {
