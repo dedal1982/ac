@@ -20,3 +20,14 @@ if (backButton) {
     backButton.classList.remove("active");
   });
 }
+
+//мобильное меню
+const burgerBtn = document.querySelector(".header__burger");
+const bodyElement = document.querySelector(".body");
+
+if (burgerBtn) {
+  burgerBtn.addEventListener("click", () => {
+    burgerBtn.classList.toggle("active");
+    bodyElement.classList.toggle("lock");
+  });
+}

@@ -182,3 +182,21 @@
   content: url(../icons/account-arrow.svg);
   transform: rotate(180deg);
 }
+.account-pubg {
+  background: url(../images/fonpubg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.account-warface {
+  background: url(../images/fonwarface.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.account-cs {
+  background: url(../images/foncs2.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
