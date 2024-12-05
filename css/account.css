@@ -178,3 +178,7 @@
 .account__button-next::after {
   content: url(../icons/account-arrow.svg);
 }
+.account__button-prev::after {
+  content: url(../icons/account-arrow.svg);
+  transform: rotate(180deg);
+}
