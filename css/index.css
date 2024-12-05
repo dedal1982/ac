@@ -368,7 +368,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 144px auto 0 0;
+  margin: 144px auto 77px 0;
   position: relative;
 }
 .in-demand__title::after {
@@ -450,12 +450,22 @@ button {
   color: #fff;
   text-transform: uppercase;
 }
+.in-demand__grid-pre {
+  max-width: 1449px;
+  width: 100%;
+  display: flex;
+  gap: 26px;
+}
 /*in-demand__swiper*/
 .in-demand__swiper {
   max-width: 1250px;
   width: 100%;
   height: auto;
-  margin: 77px auto 0;
+  margin: 0 auto;
+  display: none;
+}
+.in-demand__swiper.active {
+  display: flex;
 }
 .swiper-button-prev,
 .swiper-button-next {
