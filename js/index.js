@@ -24,10 +24,12 @@ if (backButton) {
 //мобильное меню
 const burgerBtn = document.querySelector(".header__burger");
 const bodyElement = document.querySelector(".body");
+const mobileMenu = document.querySelector(".mobile-menu");
 
 if (burgerBtn) {
   burgerBtn.addEventListener("click", () => {
     burgerBtn.classList.toggle("active");
     bodyElement.classList.toggle("lock");
+    mobileMenu.classList.toggle("active");
   });
 }
