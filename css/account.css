@@ -54,12 +54,13 @@
     rgba(32, 22, 90, 0.7) 0%,
     rgba(7, 60, 128, 0.7) 100%
   );
-  margin-left: 68px;
+  margin-left: 63px;
   padding-top: 42px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .account__inner-title {
   display: flex;
@@ -89,6 +90,7 @@
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 1fr));
   gap: 4px;
+  margin: 0 auto;
 }
 .account__item {
   width: 100%;
@@ -111,10 +113,6 @@
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
-}
-/*account__swiper*/
-.account__swiper {
-  margin-top: 24px;
 }
 .account__item h3 {
   font-family: "Proxima Nova Condensed", sans-serif;
@@ -157,4 +155,26 @@
   line-height: 20.71px;
   color: #fff;
   text-transform: uppercase;
+}
+/*account__swiper*/
+.account__swiper {
+  margin-top: 24px;
+  width: 772px;
+}
+.account__button-next {
+  width: 60px;
+  height: 160px;
+  border-radius: 0 15px 15px 0;
+  background: #0165d1e5;
+  right: -60px;
+}
+.account__button-prev {
+  width: 60px;
+  height: 160px;
+  border-radius: 15px 0 0 15px;
+  background: #0165d1e5;
+  left: -60px;
+}
+.account__button-next::after {
+  content: url(../icons/account-arrow.svg);
 }
