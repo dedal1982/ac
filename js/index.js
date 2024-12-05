@@ -11,3 +11,12 @@ if (moreButton) {
     backButton.classList.add("active");
   });
 }
+
+if (backButton) {
+  backButton.addEventListener("click", () => {
+    preItems.classList.remove("active");
+    mainItems.classList.remove("active");
+    moreButton.classList.remove("active");
+    backButton.classList.remove("active");
+  });
+}
