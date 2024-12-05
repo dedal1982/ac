@@ -103,6 +103,11 @@ button {
     margin-right: 100px;
   }
 }
+@media screen and (max-width: 1390px) {
+  .header__logo {
+    margin-right: 0;
+  }
+}
 .logo-main {
   width: 67.04px;
   height: 68.45px;
@@ -127,6 +132,16 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 1390px) {
+  .header nav {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .header nav {
+    display: none;
+  }
 }
 .header__links {
   display: flex;
@@ -819,7 +834,7 @@ button {
   .header__burger {
     display: block;
     position: relative;
-    width: 40px;
+    width: 30px;
     height: 20px;
   }
 }
