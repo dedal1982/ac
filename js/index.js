@@ -33,3 +33,18 @@ if (burgerBtn) {
     mobileMenu.classList.toggle("active");
   });
 }
+
+//перебор и клик по иконкам соцсети в мобильном меню
+const mobileMenuSocials = document.querySelectorAll(
+  ".mobile-menu__social li a,.mobile-menu__links li a"
+);
+
+if (mobileMenuSocials) {
+  mobileMenuSocials.forEach((item) => {
+    item.addEventListener("click", () => {
+      burgerBtn.classList.remove("active");
+      mobileMenu.classList.remove("active");
+      bodyElement.classList.remove("lock");
+    });
+  });
+}
