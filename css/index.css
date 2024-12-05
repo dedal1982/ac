@@ -487,6 +487,12 @@ button {
   margin-bottom: 115px;
   cursor: pointer;
 }
+.in-demand__more.active {
+  display: none;
+}
+.in-demand__grid-pre.active {
+  display: none;
+}
 .in-demand__more img {
   width: 40px;
   height: 65px;
