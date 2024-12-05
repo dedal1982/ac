@@ -434,6 +434,12 @@ button {
     line-height: 47px;
   }
 }
+@media screen and (max-width: 767px) {
+  .offers__inner h2 {
+    font-size: 24px;
+    line-height: 29.23px;
+  }
+}
 .offers__line {
   max-width: 770px;
   width: 100%;
@@ -476,6 +482,14 @@ button {
   gap: 10px;
   margin-top: 88px;
 }
+@media screen and (max-width: 1200px) {
+  .offers__items {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    gap: 46px;
+  }
+}
 .offers__item {
   width: 255px;
   height: 255px;
@@ -491,6 +505,12 @@ button {
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 2;
+}
+@media screen and (max-width: 1200px) {
+  .offers__item:nth-of-type(2) {
+    position: relative;
+    margin-bottom: -300px;
+  }
 }
 .offers__item span {
   width: 91px;
