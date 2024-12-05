@@ -409,6 +409,11 @@ button {
   margin-bottom: 273px;
   margin-left: 126px;
 }
+@media screen and (max-width: 1200px) {
+  .offers__inner {
+    margin: 150px auto;
+  }
+}
 .offers__inner h2 {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
@@ -423,6 +428,12 @@ button {
   background-clip: text;
   color: transparent;
 }
+@media screen and (max-width: 1240px) {
+  .offers__inner h2 {
+    font-size: 45px;
+    line-height: 47px;
+  }
+}
 .offers__line {
   max-width: 770px;
   width: 100%;
@@ -430,6 +441,11 @@ button {
   background: linear-gradient(90deg, #ffffff 0%, #2e1ade 100%);
   position: relative;
   border-radius: 14px;
+}
+@media screen and (max-width: 1240px) {
+  .offers__line {
+    display: none;
+  }
 }
 .offers__line::before {
   content: url(../icons/offers-l-arrow.svg);
@@ -446,6 +462,11 @@ button {
 .offers__arrow {
   width: 60px;
   height: 130px;
+}
+@media screen and (max-width: 1240px) {
+  .offers__arrow {
+    display: none;
+  }
 }
 .offers__items {
   width: 100%;
@@ -469,6 +490,7 @@ button {
   justify-content: center;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 2;
 }
 .offers__item span {
   width: 91px;
@@ -493,6 +515,12 @@ button {
   position: absolute;
   top: 250px;
   right: -327px;
+}
+@media screen and (max-width: 1240px) {
+  .offers__main {
+    width: 550px;
+    right: -214px;
+  }
 }
 /*in-demand*/
 .in-demand {
