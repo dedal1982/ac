@@ -737,9 +737,14 @@ button {
   gap: 26px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1160px) {
+  .in-demand__grid-pre {
+    max-width: 960px;
+  }
+}
 .pre__item {
-  width: 100%;
-  height: auto;
+  width: 33.3%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
