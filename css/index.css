@@ -715,11 +715,16 @@ button {
   color: transparent;
 }
 .in-demand__galery {
-  width: 950px;
+  max-width: 950px;
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 20px 25px;
   margin: 0 auto;
+}
+@media screen and (max-width: 1023px) {
+  .in-demand__galery {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
 }
 .in-demand__item {
   width: 100%;
