@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 html {
   scroll-behavior: smooth;
@@ -803,7 +803,6 @@ button {
 .in-demand__grid-pre {
   max-width: 1120px;
   width: 100%;
-  height: 518px;
   display: flex;
   gap: 26px;
   margin: 0 auto;
@@ -880,6 +879,7 @@ button {
   line-height: 60.9px;
   color: #fff;
   text-transform: uppercase;
+  margin-top: 50px;
   margin-bottom: 115px;
   cursor: pointer;
 }
@@ -887,6 +887,12 @@ button {
   .in-demand__more {
     font-size: 40px;
     left: 42px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__more {
+    font-size: 16px;
+    margin-top: 30px;
   }
 }
 .in-demand__more.active {
@@ -909,14 +915,11 @@ button {
 .in-demand__grid-pre.active {
   display: none;
 }
-.in-demand__more img {
-  width: 40px;
-  height: 65px;
-}
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 767px) {
   .in-demand__more img {
-    width: 30px;
-    height: 55px;
+    width: 20px;
+    height: 22px;
   }
 }
 /*in-demand__swiper*/
