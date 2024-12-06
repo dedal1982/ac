@@ -883,6 +883,9 @@ button {
   margin-bottom: 115px;
   cursor: pointer;
 }
+.in-demand__more img {
+  width: 30px;
+}
 @media screen and (max-width: 1024px) {
   .in-demand__more {
     font-size: 40px;
@@ -892,6 +895,7 @@ button {
 @media screen and (max-width: 767px) {
   .in-demand__more {
     font-size: 16px;
+    line-height: 19.49px;
     margin-top: 30px;
   }
 }
