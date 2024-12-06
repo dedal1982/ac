@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 html {
   scroll-behavior: smooth;
@@ -641,7 +642,13 @@ button {
 }
 @media screen and (max-width: 1024px) {
   .in-demand__title {
-    margin: 144px auto 77px;
+    margin: 80px auto 77px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__title {
+    margin: 53px auto 40px;
+    width: fit-content;
   }
 }
 .in-demand__title::after {
@@ -650,9 +657,35 @@ button {
   bottom: -20px;
   right: 8px;
 }
+@media screen and (max-width: 1023px) {
+  .in-demand__title::after {
+    right: 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__title::after {
+    content: url(../icons/in-demand-arrow-mob.svg);
+    right: -15px;
+  }
+}
 .in-demand__title-check {
   width: 90px;
   height: 90px;
+}
+@media screen and (max-width: 1023px) {
+  .in-demand__title-check {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__title-check {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 0;
+    left: 45px;
+  }
 }
 .in-demand__title h2 {
   font-family: "Proxima Nova Condensed", sans-serif;
@@ -666,6 +699,13 @@ button {
   .in-demand__title h2 {
     font-size: 45px;
     line-height: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__title h2 {
+    font-size: 24px;
+    line-height: 29.23px;
+    text-align: center;
   }
 }
 .in-demand__title h2 span {
@@ -705,6 +745,12 @@ button {
   padding: 27px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 767px) {
+  .in-demand__text {
+    padding: 6px 15px 10px 15px;
+    gap: 11px;
+  }
+}
 .in-demand__text h3 {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
@@ -713,6 +759,18 @@ button {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+}
+@media screen and (max-width: 1023px) {
+  .in-demand__text h3 {
+    font-size: 23px;
+    line-height: 35.63px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__text h3 {
+    font-size: 14px;
+    line-height: 17.05px;
+  }
 }
 .in-demand__button {
   width: 205px;
@@ -729,6 +787,19 @@ button {
   color: #fff;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1023px) {
+  .in-demand__button {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__button {
+    font-size: 13px;
+    line-height: 15.83px;
+    border-radius: 5px;
+  }
+}
 .in-demand__grid-pre {
   max-width: 1120px;
   width: 100%;
@@ -742,8 +813,20 @@ button {
     max-width: 960px;
   }
 }
+@media screen and (max-width: 1023px) {
+  .in-demand__grid-pre {
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__grid-pre {
+    position: relative;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+}
 .pre__item {
-  width: 33.3%;
+  width: 30%;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -751,12 +834,41 @@ button {
   background: linear-gradient(90deg, #171255 0%, #083a80 100%);
   margin: 0 auto;
 }
+@media screen and (max-width: 767px) {
+  .pre__item {
+    width: 127px;
+    height: 155px;
+    margin: 0;
+  }
+  .pre__item:nth-of-type(2) {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 10px);
+  }
+}
 .pre__image {
   object-fit: cover;
+  border-radius: inherit;
+}
+@media screen and (max-width: 767px) {
+  .pre__image {
+    height: 69px;
+  }
 }
 .pre__button {
   width: 100%;
   height: 78.41px;
+}
+@media screen and (max-width: 1023px) {
+  .pre__button {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pre__button {
+    height: 25px;
+  }
 }
 .in-demand__more {
   display: flex;
