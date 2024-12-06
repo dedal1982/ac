@@ -967,6 +967,13 @@ button {
   font-weight: bold;
   color: #fff;
 }
+.swiper-button-next::after {
+  content: url(../icons/account-arrow.svg);
+}
+.swiper-button-prev::after {
+  content: url(../icons/account-arrow.svg);
+  transform: rotate(180deg);
+}
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
   opacity: 0;
