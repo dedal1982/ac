@@ -902,6 +902,7 @@ button {
   .in-demand__more {
     font-size: 40px;
     left: 42px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 767px) {
