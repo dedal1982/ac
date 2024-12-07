@@ -22,6 +22,13 @@
   gap: 74px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1440px) {
+  .guarantees__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
 .guarantees__wrapper h1 {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
@@ -30,11 +37,40 @@
   color: #fff;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1440px) {
+  .guarantees__wrapper h1 {
+    font-size: 60px;
+    line-height: 67px;
+  }
+}
+@media screen and (max-width: 1226px) {
+  .guarantees__wrapper h1 {
+    font-size: 45px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .guarantees__wrapper h1 {
+    font-size: 32px;
+    line-height: 38.98px;
+    text-align: center;
+  }
+}
 .guarantees__grid {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 1fr));
   gap: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .guarantees__grid {
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+  }
+}
+@media screen and (max-width: 960px) {
+  .guarantees__grid {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
 }
 .guarantees__item {
   width: 100%;
