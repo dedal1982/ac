@@ -990,11 +990,22 @@ button {
   align-items: center;
   gap: 0;
 }
+@media screen and (max-width: 1200px) {
+  .in-demand__purchase {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .in-demand__purchase-text {
   max-width: 740px;
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  .in-demand__purchase-text {
+    align-items: center;
+  }
 }
 .in-demand__purchase-title {
   width: 100%;
@@ -1013,6 +1024,19 @@ button {
   line-height: 60.9px;
   color: #fff;
   text-transform: uppercase;
+}
+@media screen and (max-width: 1024px) {
+  .in-demand__purchase-title h2 {
+    font-size: 45px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-title h2 {
+    font-size: 24px;
+    line-height: 29.23px;
+    text-align: center;
+  }
 }
 .in-demand__purchase-title h2 span {
   background: linear-gradient(75.28deg, #406fff 58.43%, #d453ff 86.32%);
