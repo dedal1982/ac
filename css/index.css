@@ -1268,6 +1268,14 @@ button {
   display: flex;
   position: relative;
 }
+@media screen and (max-width: 1200px) {
+  .footer {
+    background: url(../images/footer-bg-mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+  }
+}
 .footer__wrapper {
   max-width: 1550px;
   width: 100%;
@@ -1276,8 +1284,40 @@ button {
   flex-direction: column;
   gap: 20px;
 }
+@media screen and (max-width: 1600px) {
+  .footer__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__wrapper {
+    gap: 40px;
+    margin: 0 auto;
+  }
+}
 .footer__inner {
   display: flex;
+}
+@media screen and (max-width: 1650px) {
+  .footer__inner {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__inner {
+    max-width: 715px;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__inner {
+    gap: 0;
+  }
 }
 .footer__logo {
   width: 176px;
@@ -1285,6 +1325,45 @@ button {
   z-index: 3;
   margin-right: 89px;
   margin-top: 44px;
+}
+.footer__logo-mob {
+  display: none;
+}
+@media screen and (max-width: 1400px) {
+  .footer__logo {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer__logo {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer__logo {
+    margin: 70px auto 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    display: none;
+  }
+  .footer__logo-mob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px auto 50px;
+    font-family: "Proxima Nova Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 8px;
+    color: #fff;
+  }
+  .footer__logo-mob img {
+    width: 84px;
+    height: 68px;
+    object-fit: contain;
+  }
 }
 .footer__links {
   display: flex;
@@ -1321,6 +1400,11 @@ button {
   gap: 65px;
   margin-left: 162px;
 }
+@media screen and (max-width: 1400px) {
+  .footer__items {
+    margin-left: 0;
+  }
+}
 .footer__links-items {
   max-width: 712px;
   width: 100%;
@@ -1337,6 +1421,12 @@ button {
 .footer__items-bottom {
   display: flex;
   gap: 157px;
+}
+@media screen and (max-width: 1650px) {
+  .footer__items-bottom {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 .babk-links {
   display: flex;
