@@ -1071,6 +1071,12 @@ button {
   margin-left: 44px;
   gap: 81px;
 }
+@media screen and (max-width: 1200px) {
+  .in-demand__purchase-items {
+    margin-left: 0;
+    gap: 50px;
+  }
+}
 .in-demand__purchase-item {
   width: 100%;
   padding: 25px 24px 32px 25px;
