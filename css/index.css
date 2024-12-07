@@ -902,7 +902,8 @@ button {
   .in-demand__more {
     font-size: 40px;
     left: 42px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1018,6 +1019,21 @@ button {
   width: 118px;
   height: 118px;
 }
+@media screen and (max-width: 1023px) {
+  .in-demand__purchase-title img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-title {
+    width: fit-content;
+  }
+  .in-demand__purchase-title img {
+    width: 32px;
+    height: 32px;
+  }
+}
 .in-demand__purchase-title h2 {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
@@ -1034,8 +1050,8 @@ button {
 }
 @media screen and (max-width: 767px) {
   .in-demand__purchase-title h2 {
-    font-size: 24px;
-    line-height: 29.23px;
+    font-size: 16px;
+    line-height: 19.49px;
     text-align: center;
   }
 }
@@ -1063,11 +1079,24 @@ button {
     line-height: 37.72px;
   }
 }
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-text h3 {
+    font-size: 14px;
+    line-height: 17.05px;
+    margin: 22px auto 0 0;
+  }
+}
 .in-demand__purchase-text h3::after {
   content: url(../icons/in-demand-arrow.svg);
   position: absolute;
   bottom: -8px;
   right: -83px;
+}
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-text h3::after {
+    content: url(../icons/in-demand-arrow-mob-2.svg);
+    right: -28px;
+  }
 }
 .in-demand__purchase-items {
   max-width: 440px;
@@ -1084,6 +1113,13 @@ button {
     gap: 50px;
   }
 }
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-items {
+    max-width: 174.67px;
+    margin-top: 33px;
+    gap: 15px;
+  }
+}
 .in-demand__purchase-item {
   width: 100%;
   padding: 25px 24px 32px 25px;
@@ -1098,14 +1134,26 @@ button {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-item {
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
 .in-demand__purchase-item p {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
   font-style: italic;
   font-size: 25px;
   line-height: 30.45px;
-  color: #fff;
+  color: #ffffffc4;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-item p {
+    font-size: 10px;
+    line-height: 12.18px;
+  }
 }
 .in-demand__purchase-item span {
   width: 67px;
@@ -1127,6 +1175,17 @@ button {
     rgba(1, 184, 237, 0.36) 0%,
     rgba(37, 21, 109, 0.36) 100%
   );
+}
+@media screen and (max-width: 767px) {
+  .in-demand__purchase-item span {
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+    line-height: 14.62px;
+    top: 15px;
+    left: auto;
+    right: -22px;
+  }
 }
 .in-demand__purchase-video {
   width: fit-content;
