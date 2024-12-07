@@ -753,7 +753,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .in-demand__text {
-    padding: 6px 15px 10px 15px;
+    padding: 6px 10px 10px 10px;
     gap: 11px;
   }
 }
@@ -765,6 +765,12 @@ button {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+}
+@media screen and (max-width: 1030px) {
+  .in-demand__text h3 {
+    font-size: 29px;
+    line-height: 35.63px;
+  }
 }
 @media screen and (max-width: 1023px) {
   .in-demand__text h3 {
@@ -826,7 +832,7 @@ button {
 @media screen and (max-width: 767px) {
   .in-demand__grid-pre {
     position: relative;
-    max-width: 100%;
+    max-width: 350px;
     justify-content: space-between;
   }
 }
