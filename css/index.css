@@ -1370,6 +1370,11 @@ button {
   flex-direction: column;
   z-index: 3;
 }
+@media screen and (max-width: 767px) {
+  .footer__links-mob {
+    display: none;
+  }
+}
 .footer__links li h4 {
   font-family: "Proxima Nova Condensed", sans-serif;
   font-weight: 700;
@@ -1378,6 +1383,13 @@ button {
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .footer__links li h4 {
+    font-size: 15px;
+    line-height: 18.27px;
+    margin-bottom: 10px;
+  }
 }
 .footer__links li a {
   display: flex;
@@ -1390,9 +1402,22 @@ button {
   color: #5c6b99;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+  .footer__links li a {
+    font-size: 12px;
+    line-height: 14.62px;
+    margin-bottom: 5px;
+  }
+}
 .footer__links li a img {
   width: 30px;
   height: 30px;
+}
+@media screen and (max-width: 767px) {
+  .footer__links li a img {
+    width: 20px;
+    height: 20px;
+  }
 }
 .footer__items {
   display: flex;
@@ -1403,6 +1428,11 @@ button {
 @media screen and (max-width: 1400px) {
   .footer__items {
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__items {
+    margin-top: 24px;
   }
 }
 .footer__links-items {
@@ -1428,10 +1458,20 @@ button {
     gap: 50px;
   }
 }
+@media screen and (max-width: 767px) {
+  .footer__items-bottom {
+    gap: 24px;
+  }
+}
 .babk-links {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+@media screen and (max-width: 767px) {
+  .babk-links {
+    gap: 10px;
+  }
 }
 .footer__copyright {
   max-width: 651px;
@@ -1447,6 +1487,16 @@ button {
   color: #fff;
   text-align: center;
   z-index: 3;
+}
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    max-width: 276px;
+    font-size: 10px;
+    line-height: 12.18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
 }
 /*-----адаптив-----*/
 .header__burger {
