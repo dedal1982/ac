@@ -1688,6 +1688,18 @@ button {
   top: 0;
   right: 0;
 }
+.joystick-3 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.joystick-4 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
 .joystick-5 {
   position: absolute;
   bottom: 200px;
@@ -1697,4 +1709,14 @@ button {
   position: absolute;
   bottom: 200px;
   right: 0;
+}
+@media screen and (max-width: 1024px) {
+  .joystick-1,
+  .joystick-2,
+  .joystick-3,
+  .joystick-4,
+  .joystick-5,
+  .joystick-6 {
+    display: none;
+  }
 }
