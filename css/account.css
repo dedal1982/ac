@@ -24,6 +24,13 @@
   align-items: center;
   gap: 17px;
 }
+@media screen and (max-width: 1440px) {
+  .account__title {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
 .account__disk {
   display: block;
   width: 22px;
@@ -39,6 +46,24 @@
   color: #fff;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1440px) {
+  .account__title h1 {
+    font-size: 60px;
+    line-height: 67px;
+  }
+}
+@media screen and (max-width: 1226px) {
+  .account__title h1 {
+    font-size: 45px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .account__title h1 {
+    font-size: 34px;
+    line-height: 41.41px;
+  }
+}
 .account__title h1 span {
   background: linear-gradient(86.81deg, #027fe9 40.67%, #3bdce8 100.4%);
   -webkit-background-clip: text;
@@ -46,8 +71,9 @@
   color: transparent;
 }
 .account__inner {
-  width: 900px;
-  height: 744px;
+  max-width: 900px;
+  width: 100%;
+  height: fit-content;
   border-radius: 20px;
   background: linear-gradient(
     180deg,
@@ -55,12 +81,23 @@
     rgba(7, 60, 128, 0.7) 100%
   );
   margin-left: 63px;
-  padding-top: 42px;
+  padding: 40px 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+}
+@media screen and (max-width: 1050px) {
+  .account__inner {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .account__inner {
+    background: transparent;
+    padding: 0;
+  }
 }
 .account__inner-title {
   display: flex;
@@ -158,8 +195,9 @@
 }
 /*account__swiper*/
 .account__swiper {
+  max-width: 772px;
+  width: 100%;
   margin-top: 24px;
-  width: 772px;
 }
 .account__button-next {
   width: 60px;
@@ -168,12 +206,32 @@
   background: #0165d1e5;
   right: -60px;
 }
+@media screen and (max-width: 1050px) {
+  .account__button-next {
+    background: transparent;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .account__button-next {
+    right: 0;
+  }
+}
 .account__button-prev {
   width: 60px;
   height: 160px;
   border-radius: 15px 0 0 15px;
   background: #0165d1e5;
   left: -60px;
+}
+@media screen and (max-width: 1050px) {
+  .account__button-prev {
+    background: transparent;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .account__button-prev {
+    left: 0;
+  }
 }
 .account__button-next::after {
   content: url(../icons/account-arrow.svg);
