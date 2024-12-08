@@ -166,6 +166,7 @@
   .account__inner-title h2 {
     font-size: 24px;
     line-height: 29.23px;
+    max-width: 310px;
   }
 }
 .account__grid {
@@ -358,16 +359,32 @@
   transform: rotate(180deg);
 }
 .account-pubg {
-  background: url(../images/fonpubg.svg);
+  background: url(../images/fonpubg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+@media screen and (max-width: 767px) {
+  .account-pubg {
+    background: url(../images/fonpubg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
 .account-warface {
-  background: url(../images/fonwarface.svg);
+  background: url(../images/fonwarface.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right;
   background-size: cover;
+}
+@media screen and (max-width: 767px) {
+  .account-warface {
+    background: url(../images/fonwarface-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
 }
 .account-cs {
   background: url(../images/foncs2.jpg);
