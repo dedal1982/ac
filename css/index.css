@@ -651,7 +651,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 144px auto 77px 0;
+  margin: 144px auto 47px 0;
   position: relative;
 }
 @media screen and (max-width: 1024px) {
@@ -748,12 +748,15 @@ button {
 }
 .in-demand__item {
   width: 100%;
-  height: 405px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
   background: linear-gradient(90deg, #171255 0%, #083a80 100%);
+  transition: all 0.2s ease-out;
+}
+.in-demand__item:hover {
+  transform: scale(1.1);
 }
 @media screen and (max-width: 767px) {
   .in-demand__item {
@@ -877,6 +880,10 @@ button {
   border-radius: 20px;
   background: linear-gradient(90deg, #171255 0%, #083a80 100%);
   margin: 0 auto;
+  transition: all 0.2s ease-out;
+}
+.pre__item:hover {
+  transform: scale(1.1);
 }
 @media screen and (max-width: 767px) {
   .pre__item {
@@ -960,7 +967,7 @@ button {
   line-height: 60.9px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 0;
   margin-bottom: 100px;
 }
 @media screen and (max-width: 1024px) {
@@ -973,7 +980,6 @@ button {
   .in-demand__back.active {
     font-size: 16px;
     line-height: 19.49px;
-    margin-top: 30px;
   }
 }
 .in-demand__grid-pre.active {
@@ -992,6 +998,12 @@ button {
   width: 100%;
   margin: 0 auto;
   display: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 1400px) {
+  .in-demand__swiper {
+  }
 }
 .in-demand__swiper.active {
   display: flex;
