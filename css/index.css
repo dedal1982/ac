@@ -945,7 +945,7 @@ button {
 @media screen and (max-width: 1024px) {
   .in-demand__back.active {
     font-size: 40px;
-    left: 42px;
+    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -969,7 +969,6 @@ button {
 .in-demand__swiper {
   max-width: 1250px;
   width: 100%;
-  height: auto;
   margin: 0 auto;
   display: none;
 }
