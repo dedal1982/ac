@@ -364,7 +364,7 @@
   background-position: center center;
   background-size: cover;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .account-pubg {
     background: url(../images/fonpubg-mob.jpg);
     background-repeat: no-repeat;
@@ -378,7 +378,7 @@
   background-position: right;
   background-size: cover;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .account-warface {
     background: url(../images/fonwarface-mob.jpg);
     background-repeat: no-repeat;
@@ -392,7 +392,7 @@
   background-position: center center;
   background-size: cover;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .account-cs {
     background: url(../images/foncs2-mob.jpg);
     background-repeat: no-repeat;
