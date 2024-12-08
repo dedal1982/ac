@@ -141,7 +141,7 @@
   max-width: 215px;
   width: 100%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .guarantees__item p {
     max-width: 260px;
     margin-top: 24px;
