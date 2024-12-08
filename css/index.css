@@ -212,6 +212,12 @@ button {
     display: none;
   }
 }
+.header__social li {
+  transition: all 0.2s ease-out;
+}
+.header__social li:hover {
+  transform: scale(1.1);
+}
 .social-link {
   width: 50px;
   height: 50px;
@@ -533,6 +539,12 @@ button {
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 2;
+  transition: all 0.2s ease-out;
+  border: 0.5px solid transparent;
+}
+.offers__item:hover {
+  transform: scale(1.1);
+  border: 0.5px solid #fff;
 }
 @media screen and (max-width: 1200px) {
   .offers__item:nth-of-type(2) {
