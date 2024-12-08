@@ -1700,7 +1700,7 @@ button {
 }
 .joystick-4 {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 0;
   transform: translate(0, -50%);
 }
