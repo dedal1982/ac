@@ -64,6 +64,7 @@ button {
     line-height: 30.45px;
     color: #fff;
     text-transform: uppercase;
+    align-self: center;
   }
   .back-button img {
     width: 17px;
