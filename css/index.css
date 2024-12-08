@@ -1678,3 +1678,23 @@ button {
   border-radius: 10px;
   background: linear-gradient(90deg, #0075ff 0%, #331bab 100%);
 }
+.joystick-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.joystick-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.joystick-5 {
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+}
+.joystick-6 {
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+}
