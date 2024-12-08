@@ -28,9 +28,6 @@ button {
   border: none;
   cursor: pointer;
 }
-.body.lock {
-  overflow: hidden;
-}
 .page {
   width: 100%;
   margin: 0 auto;
